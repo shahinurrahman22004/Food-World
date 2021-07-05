@@ -241,3 +241,32 @@ a.active {
     font-weight: 600;
     font-size: 14px;
 }
+
+
+
+
+
+.footer-title {
+    text-align: center;
+    padding: 12px 0px;
+}
+
+footer.footer-area {
+    background-color: #222;
+    height: 130px;
+}
+
+.footer-title p {
+    color: #fff;
+    font-size: 15px;
+}
+
+span.footer-color {
+    color: crimson;
+    padding-right: 20px;
+}
+
+.footer-title h1 {
+    text-transform: capitalize;
+    color: gray;
+}
