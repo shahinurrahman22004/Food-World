@@ -111,7 +111,9 @@ a.active {
     display: flex;
     margin: 50px 0;
 }
-
+.about-image img {
+    width: 85%;
+}
 .about-title {
     margin-top: 140px;
 }
@@ -127,4 +129,68 @@ a.active {
     padding: 0px 120px 60px 0;
     letter-spacing: 1px;
     font-size: 14px;
+}
+
+
+
+
+
+.recipies-area {
+    padding: 50px 5%;
+}
+
+.recipi-top {
+    text-align: center;
+    padding: 10px 260px 50px;
+}
+
+.recipi-top h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: tahoma;
+    color: gray;
+}
+
+.recipi-top p {
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.recipies {
+    display: flex;
+}
+
+.recipi-img img {
+    width: 80%;
+    height: 270px;
+    border-radius: 30px;
+}
+.three-in-one {
+    width: 33.33%;
+    margin: 2%;
+    border: 1px solid gray;
+    padding: 25px 0 5px 0;
+    border-radius: 40px;
+    box-shadow: 0px 1px 25px 2px #c0c0c0;
+}
+
+.recipi-img {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.recipi-title {
+    padding: 0px 35px;
+}
+
+.recipi-title h4 {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.recipi-title p {
+    padding: 0 10px 0px 0px;
+    color: gray;
 }
