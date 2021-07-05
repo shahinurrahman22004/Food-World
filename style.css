@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+section.menu-area {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    float: left;
+    margin-right: 36.5%;
+    padding-left: 5%;
+    margin-top: -30px;
+    font-size: 22px;
+}
+
+.menu ul li {
+    display: flex;
+    padding: 10px 25px;
+    float: left;
+}
+
+.menu ul li a {
+    color: crimson;
+    font-weight: 900;
+}
+
+.logo h2 {
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+
+
+.home-area {
+    padding-top: 150px;
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 50px;
+}
+.half-width {
+    width: 45%;
+    margin-left: 5%;
+}
+img.home-img {
+    width: 85%;
+    border-radius: 70px;
+}
+.home-area .title {
+    margin-top: 90px;
+}
+
+.title h1 {
+    font-size: 54px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #323232;
+}
+
+h1 span {
+    color: crimson;
+}
+
+.title p {
+    font-size: 18px;
+    color: gray;
+    font-weight: 600;
+}
+
+a.food-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: crimson;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 40px;
+}
+
+a.active {
+    border-bottom: 1px solid #333;
+}
