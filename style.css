@@ -13,6 +13,8 @@ a {
 }
 
 
+
+
 section.menu-area {
     background-color: #f9f9f9;
     width: 100%;
@@ -64,7 +66,7 @@ img.home-img {
     border-radius: 70px;
 }
 .home-area .title {
-    margin-top: 90px;
+    margin-top: 50px;
 }
 
 .title h1 {
@@ -82,11 +84,12 @@ h1 span {
     font-size: 18px;
     color: gray;
     font-weight: 600;
+    padding-bottom: 30px;
 }
 
 a.food-btn {
     display: inline-block;
-    padding: 12px 30px;
+    padding: 18px 30px;
     background-color: crimson;
     color: #fff;
     text-transform: capitalize;
@@ -96,4 +99,32 @@ a.food-btn {
 
 a.active {
     border-bottom: 1px solid #333;
+}
+
+
+
+
+
+.about-area {
+    background-image: url(images/man-bg.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 50px 0;
+}
+
+.about-title {
+    margin-top: 140px;
+}
+
+.about-title h1 {
+    color: gray;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.about-title p {
+    padding: 0px 120px 60px 0;
+    letter-spacing: 1px;
+    font-size: 14px;
 }
